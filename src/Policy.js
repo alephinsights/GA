@@ -1,18 +1,16 @@
-import logo from './logo.svg';
 import './App.css';
 import { Link } from "react-router-dom";
 import CookieConsent, { Cookies, getCookieConsentValue } from "react-cookie-consent";
 
 
 
-function App() {
+function Policy() {
 
   return (
-    <div className="App">
+    <div className="Policy">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Google analytics test site
+          Cookie Policy here...
         </p>
         <Link to='/one'>One</Link>
         <Link to='/two'>Two</Link>
@@ -34,11 +32,10 @@ function App() {
           }
         }}
       >
-        This website uses cookies to understand user behaviour.{' '}
-        <Link to='/policy'>Policy</Link>
+        This website uses cookies to understand user behaviour.{" "}
       </CookieConsent>
     </div>
   );
 }
 
-export default App;
+export default Policy;
