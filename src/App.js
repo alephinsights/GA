@@ -11,7 +11,9 @@ function App() {
   const location = useLocation();
 
   useEffect(() => {
-    document.title =  `GA Sample page number ${location.pathname.split('/')[1]}`;
+    const num = location.pathname.split('/')[1];
+    const page = num ? `number ${num}` : `home`;
+    document.title =  `GA Sample page ${page}`;
   }, [location]);
 
   return (
