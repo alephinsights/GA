@@ -9,12 +9,15 @@ function Consent() {
       window.gtag('consent', 'update', {
         'analytics_storage': 'granted'
       });
-    } else {
-      console.log(getCookieConsentValue());
     }
   });
 
+  useEffect(() => {
+    document.title = "Cookie Policy page";
+  }, []);
+
   return(
+
     <CookieConsent
       location="bottom"
       buttonText="Accept"

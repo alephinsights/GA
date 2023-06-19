@@ -3,8 +3,16 @@ import './App.css';
 import { Link } from "react-router-dom";
 import Consent from './Consent';
 
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
 
 function App() {
+
+  const location = useLocation();
+
+  useEffect(() => {
+    document.title =  `GA Sample page number ${location.pathname.split('/')[1]}`;
+  }, [location]);
 
   return (
 
