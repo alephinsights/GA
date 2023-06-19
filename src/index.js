@@ -32,7 +32,9 @@ const router = createBrowserRouter([
     path: "/policy",
     element: <Policy/>,
   },
-]);
+], {
+  basename: '/GA'
+});
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));

@@ -14,10 +14,10 @@ function App() {
         <p>
           Google analytics test site
         </p>
-        <Link to='one'>One</Link>
-        <Link to='two'>Two</Link>
-        <Link to='three'>Three</Link>
-        <Link to='policy'>Privacy Policy</Link>
+        <Link to='/one'>One</Link>
+        <Link to='/two'>Two</Link>
+        <Link to='/three'>Three</Link>
+        <Link to='/policy'>Privacy Policy</Link>
       </header>
       <Consent/>
     </div>

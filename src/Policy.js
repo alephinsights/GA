@@ -12,9 +12,9 @@ function Policy() {
         <p>
           Cookie Policy here...
         </p>
-        <Link to='one'>One</Link>
-        <Link to='two'>Two</Link>
-        <Link to='three'>Three</Link>
+        <Link to='/one'>One</Link>
+        <Link to='/two'>Two</Link>
+        <Link to='/three'>Three</Link>
       </header>
       <Consent />
     </div>
