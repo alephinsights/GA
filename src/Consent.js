@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
 import { Link } from "react-router-dom";
-import CookieConsent, { Cookies, getCookieConsentValue } from "react-cookie-consent";
+import CookieConsent, { getCookieConsentValue } from "react-cookie-consent";
 
 
 function Consent() {

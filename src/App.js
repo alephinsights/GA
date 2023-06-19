@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './logo.png';
 import './App.css';
 import { Link } from "react-router-dom";
 import Consent from './Consent';
@@ -17,6 +17,7 @@ function App() {
         <Link to='/one'>One</Link>
         <Link to='/two'>Two</Link>
         <Link to='/three'>Three</Link>
+        <Link to='/policy'>Privacy Policy</Link>
       </header>
       <Consent/>
     </div>
