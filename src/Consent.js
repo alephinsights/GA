@@ -32,7 +32,7 @@ function Consent() {
       }}
     >
       This website uses cookies to understand user behaviour.{' '}
-      <Link to='/policy'>Policy</Link>
+      <Link to='policy'>Policy</Link>
     </CookieConsent>
   )
 }
